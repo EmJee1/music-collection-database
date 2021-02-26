@@ -1,0 +1,19 @@
+{
+	"name": "music-collection-database",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"database-setup": "node scripts/db-setup",
+		"analyze-files": "node scripts/analyze-files",
+		"check-missing-tags": "node scripts/check-missing-tags",
+		"bulk-data": "node scripts/bulk-data"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"music-metadata": "^7.8.0",
+		"sqlite3": "^5.0.2"
+	}
+}
